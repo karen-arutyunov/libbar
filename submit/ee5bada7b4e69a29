@@ -1,0 +1,7 @@
+: 1
+name: libbar
+version: 0.1.1
+type: exe
+language: c++
+summary: libbar C++ executable
+license: other: proprietary; Not free/open source.
