@@ -1,0 +1,5 @@
+libbar
+
+# Testscript output directory (can be symlink).
+#
+test-libbar

@@ -1,0 +1,14 @@
+: 1
+name: libbar
+version: 0.1.0-a.0.z
+type: exe
+language: c++
+summary: libbar C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/libbar
+email: karen@codesynthesis.com
+#build-error-email: karen@codesynthesis.com
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0
+#depends: libhello ^1.0.0
