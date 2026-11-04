@@ -1,6 +1,6 @@
 : 1
 name: libbar
-version: 0.1.2
+version: 0.1.3-a.0.z
 type: exe
 language: c++
 summary: libbar C++ executable
