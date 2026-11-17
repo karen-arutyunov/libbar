@@ -1,9 +1,9 @@
 : 1
-name: libbar
+name: bar
 version: 0.1.3-a.0.z
 type: exe
 language: c++
-summary: libbar C++ executable
+summary: bar C++ executable
 license: other: proprietary ; Not free/open source.
 description-file: README.md
 url: https://example.org/libbar
@@ -14,10 +14,10 @@ depends: * bpkg >= 0.17.0-
 
 extras-build-config:
 \
-config.libbar.extras=true
+config.bar.extras=true
 \
 
 cache-build-config:
 \
-config.libbar.cache=true
+config.bar.cache=true
 \

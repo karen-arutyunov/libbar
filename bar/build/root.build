@@ -15,5 +15,5 @@ cxx{*}: extension = cxx
 #
 test.target = $cxx.target
 
-config [bool] config.libbar.extras ?= false
-config [bool] config.libbar.cache ?= false
+config [bool] config.bar.extras ?= false
+config [bool] config.bar.cache ?= false

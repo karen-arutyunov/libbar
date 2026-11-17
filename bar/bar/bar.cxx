@@ -1,4 +1,4 @@
-#include <libbar/baz/baz.hxx>
+#include <bar/baz/baz.hxx>
 
 int main (int argc, char* argv[])
 {

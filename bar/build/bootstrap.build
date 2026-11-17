@@ -1,4 +1,4 @@
-project = libbar
+project = bar
 
 using version
 using config
