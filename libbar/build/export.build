@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libbar/
+}
+
+export $out_root/libbar/$import.target
