@@ -12,12 +12,12 @@ email: karen@codesynthesis.com
 depends: * build2 >= 0.17.0-
 depends: * bpkg >= 0.17.0-
 
+fetch-build-config:
+\
+bpkg.configure.fetch:--fetch-timeout=6000
+\
+
 extras-build-config:
 \
 config.bar.extras=true
-\
-
-cache-build-config:
-\
-config.bar.cache=true
 \

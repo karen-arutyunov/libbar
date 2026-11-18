@@ -12,12 +12,17 @@ depends: * build2 >= 0.18.0
 depends: * bpkg >= 0.18.0
 #depends: libhello ^1.0.0
 
-extras-build-config:
+fetch-build-config:
 \
-config.libbar.extras=true
+bpkg.configure.fetch:--fetch-timeout=6000
 \
 
 network-build-config:
 \
 config.bar.network=true
+\
+
+extras-build-config:
+\
+config.libbar.extras=true
 \
