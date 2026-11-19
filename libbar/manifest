@@ -17,7 +17,7 @@ fetch-build-config:
 bpkg.configure.fetch:--fetch-timeout=6000
 \
 
-network-build-config:
+net+work-build-config:
 \
 config.bar.network=true
 \
